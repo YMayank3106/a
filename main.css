@@ -1,0 +1,164 @@
+#map{
+    height: 700px;
+    width: 100%;
+    margin-top: 50px;
+}
+#getRoute{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background: blanchedalmond;
+  /* background-image: -webkit-linear-gradient(top, #5282d4, #28667d);
+  background-image: -moz-linear-gradient(top, #5282d4, #28667d);
+  background-image: -ms-linear-gradient(top, #5282d4, #28667d);
+  background-image: -o-linear-gradient(top, #5282d4, #28667d);
+  background-image: linear-gradient(to bottom, #5282d4, #28667d); */
+   /* cursor: pointer;*/
+   /* position: absolute;*/
+    /*z-index: 0;*/
+     margin: 0;
+ /*osition: absolute;
+ */ /* top: 50%; */
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+    border-radius: 18px;
+    top: 100px;
+    left: 620px;
+    font-family: Quicksand;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px rgb(12, 12, 12);
+}
+#getRoute:hover {background-color : #b3d9ff;
+cursor : pointer;
+}
+
+#getRoute:active {
+    background-color : #b3d9ff;
+  box-shadow: 0 5px rgb(20, 20, 20);
+  transform: translateY(3px);
+}
+#getRoute1{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background: blanchedalmond;
+  /* background-image: -webkit-linear-gradient(top, #5282d4, #28667d);
+  background-image: -moz-linear-gradient(top, #5282d4, #28667d);
+  background-image: -ms-linear-gradient(top, #5282d4, #28667d);
+  background-image: -o-linear-gradient(top, #5282d4, #28667d);
+  background-image: linear-gradient(to bottom, #5282d4, #28667d); */
+   /* cursor: pointer;*/
+   /* position: absolute;*/
+    /*z-index: 0;*/
+     margin: 0;
+     font-size: large;
+  position: absolute;
+    border-radius: 18px;
+    top: 160px;
+    left: 620px;
+    font-family: Quicksand;
+    box-shadow: 0 4px rgb(12, 12, 12);
+    /* font-size: large; */
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#getRoute1:hover {background-color : #b3d9ff}
+
+#getRoute1:active {
+    background-color : #b3d9ff;
+  box-shadow: 0 5px rgb(20, 20, 20);
+  transform: translateY(3px);
+}
+.elemnnum{
+
+    position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   
+}
+#dist{
+    font-family: Quicksand;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 1px 1px #FF0000;
+    background-color: blanchedalmond;
+
+}
+#uppr{
+    margin-top: 30px;
+   /* margin-left: 220px;
+    margin-right: 200px;*/
+    width: 100%;
+    
+}
+#to{
+   /* margin-left: 260px;
+    margin-right: 260px;*/
+}
+#getRoute1 :after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+#getRoute1:hover {
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+#getRoute1:hover :after {
+  opacity: 1;
+  right: 0;
+}
+#getRoute :after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+#getRoute:hover {
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+#getRoute:hover :after {
+  opacity: 1;
+  right: 0;
+}
+#Places{
+    height: 50px;
+    width: 320px;
+    border-radius: 15px;
+    color: black;
+    background-color: #cccccc ;
+    outline: none;
+    box-shadow: 2px 5px black;
+    text-shadow: 1px 0px #FF0000;
+}
+#Places1{
+    height: 50px;
+    width: 320px;
+    border-radius: 15px;
+    color: black;
+    background-color: #cccccc ;
+    outline: none;
+    box-shadow: 2px 5px black;
+    text-shadow: 1px 0px #FF0000;
+}
